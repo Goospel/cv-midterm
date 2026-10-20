@@ -1,0 +1,15 @@
+# Visual Studio
+x64/
+Debug/
+Release/
+.vs/
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.user
+
+# 임시
+.commit-msg-tmp
+output.avi
+result.png
