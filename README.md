@@ -8,7 +8,8 @@
 | 상황 | 할 일 |
 |---|---|
 | 기능별로 코드를 찾고 싶다 | **[index.html](index.html)** 을 브라우저로 연다 |
-| 처음 보는 컴퓨터에 환경을 잡아야 한다 | **[SETUP.md](SETUP.md)** 를 따라 한다 |
+| **VS + OpenCV 설정을 처음부터 해야 한다** | **[docs/VS-OPENCV-SETUP.md](docs/VS-OPENCV-SETUP.md)** — 교재 화면 캡처 넣은 따라하기 |
+| 설정은 알고 빠른 요약만 필요하다 | [SETUP.md](SETUP.md) |
 | 코드 파일만 필요하다 | [`snippets/`](snippets) 폴더 |
 | 실습 이미지가 없다 | [`data/`](data) 폴더를 프로젝트 폴더에 복사 |
 
@@ -17,10 +18,12 @@
 ## 폴더
 
 ```
-index.html    기능 → 코드 찾아보기 (여기서 시작)
-SETUP.md      VS + OpenCV 프로젝트 만들기, 오류 해결
-snippets/     주제별 코드 (각 파일에 main() 이 들어 있어 그대로 빌드됨)
-data/         실습용 이미지·동영상 (lenna, cat, dog, airplane, field, mask, hawkes, stopwatch)
+index.html                 기능 → 코드 찾아보기 (여기서 시작)
+docs/VS-OPENCV-SETUP.md    VS + OpenCV 설정 따라하기 (교재 화면 캡처 포함)
+docs/images/               교재 설정 화면 캡처
+SETUP.md                   같은 내용의 짧은 요약판
+snippets/                  주제별 코드 (각 파일에 main() 이 들어 있어 그대로 빌드됨)
+data/                      실습용 이미지·동영상 (lenna, cat, dog, airplane, field, mask, hawkes, stopwatch)
 ```
 
 ## snippets 목록
